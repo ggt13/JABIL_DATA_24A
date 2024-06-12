@@ -1,0 +1,147 @@
+octave: X11 DISPLAY environment variable not set
+octave: disabling GUI features
+warning: using the gnuplot graphics toolkit is discouraged
+
+The gnuplot graphics toolkit is not actively maintained and has a number
+of limitations that are ulikely to be fixed.  Communication with gnuplot
+uses a one-directional pipe and limited information is passed back to the
+Octave interpreter so most changes made interactively in the plot window
+will not be reflected in the graphics properties managed by Octave.  For
+example, if the plot window is closed with a mouse click, Octave will not
+be notified and will not update it's internal list of open figure windows.
+We recommend using the qt toolkit instead.
+        |-------------------------------------------------------------------|  
+    10 +|+           +            +             +            +           +##|  
+       +|            +            +             +            +        #### +|  
+        |                                                        #####      |  
+     8 +|+                                                  #####        +-+|  
+        |                                                ###                |  
+        |                                             ###                   |  
+     6 +|+                                        ####                   +-+|  
+        |                                      ###                          |  
+        |                                  ####                             |  
+     4 +|+                            #####                              +-+|  
+        |                        #####                                      |  
+        |                    ####                                           |  
+        |                 ###                                               |  
+     2 +|+             ###                                               +-+|  
+        |         #####                                                     |  
+        |    #####                                                          |  
+     0 +|####                                                            +-+|  
+       #|                                                                   |  
+       +|-------------------------------------------------------------------|  
+    -2 +-+           +            +             +            +           +-+   
+       0             2            4             6            8            10   
+                                 Datos de Entrada                              
+                                                                               
+y = (x) * 1.082 + -0.847 
+
+pendiente = 1.082
+cruce con la ordenada (offset) = -0.847
+desviacion estandar de la pendiente = 0.675
+desviacion estandar de la pendiente = 0.582
+desviacion estandar de la pendiente = 0.497
+desviacion estandar de la pendiente = 0.427
+desviacion estandar de la pendiente = 0.378
+desviacion estandar de la pendiente = 0.361
+desviacion estandar de la pendiente = 0.378
+desviacion estandar de la pendiente = 0.427
+desviacion estandar de la pendiente = 0.497
+desviacion estandar de la pendiente = 0.582
+desviacion estandar de la pendiente = 0.675
+desviacion estandar del cruce por la ordenada = 3.993
+desviacion estandar del cruce por la ordenada = 3.442
+desviacion estandar del cruce por la ordenada = 2.942
+desviacion estandar del cruce por la ordenada = 2.526
+desviacion estandar del cruce por la ordenada = 2.239
+desviacion estandar del cruce por la ordenada = 2.135
+desviacion estandar del cruce por la ordenada = 2.239
+desviacion estandar del cruce por la ordenada = 2.526
+desviacion estandar del cruce por la ordenada = 2.942
+desviacion estandar del cruce por la ordenada = 3.442
+desviacion estandar del cruce por la ordenada = 3.993
+Tres desviaciones estandar de la pendiente = 2.025
+Tres desviaciones estandar de la pendiente = 1.745
+Tres desviaciones estandar de la pendiente = 1.492
+Tres desviaciones estandar de la pendiente = 1.281
+Tres desviaciones estandar de la pendiente = 1.135
+Tres desviaciones estandar de la pendiente = 1.082
+Tres desviaciones estandar de la pendiente = 1.135
+Tres desviaciones estandar de la pendiente = 1.281
+Tres desviaciones estandar de la pendiente = 1.492
+Tres desviaciones estandar de la pendiente = 1.745
+Tres desviaciones estandar de la pendiente = 2.025
+Tres desviaciones estandar del cruce por la ordenada = 11.980
+Tres desviaciones estandar del cruce por la ordenada = 10.325
+Tres desviaciones estandar del cruce por la ordenada = 8.827
+Tres desviaciones estandar del cruce por la ordenada = 7.577
+Tres desviaciones estandar del cruce por la ordenada = 6.717
+Tres desviaciones estandar del cruce por la ordenada = 6.404
+Tres desviaciones estandar del cruce por la ordenada = 6.717
+Tres desviaciones estandar del cruce por la ordenada = 7.577
+Tres desviaciones estandar del cruce por la ordenada = 8.827
+Tres desviaciones estandar del cruce por la ordenada = 10.325
+Tres desviaciones estandar del cruce por la ordenada = 11.980
+error absoluto = 0.024
+error relativo porcentual = 0.239
+exactitud = 99.761
+
+ eH = 6.100 por ciento 
+ eL = 8.470 por ciento 
+ eK = 8.470 por ciento 
+ eZ = 8.470 por ciento 
+ eR = 130.815 por ciento 112.751 
+
+ eR = 96.387 por ciento 82.741 
+
+ eR = 73.344 por ciento 69.932 
+
+ eR = 73.344 por ciento 82.741 
+
+ eR = 96.387 por ciento 112.751 
+
+ eR = 130.815 por ciento 
+ Incertidumbre de diseño UD = 131.872
+
+ Incertidumbre de diseño UD = 113.974
+
+ Incertidumbre de diseño UD = 97.816
+
+ Incertidumbre de diseño UD = 84.401
+
+ Incertidumbre de diseño UD = 75.212
+
+ Incertidumbre de diseño UD = 71.888
+
+ Incertidumbre de diseño UD = 75.212
+
+ Incertidumbre de diseño UD = 84.401
+
+ Incertidumbre de diseño UD = 97.816
+
+ Incertidumbre de diseño UD = 113.974
+
+ Incertidumbre de diseño UD = 131.872
+        |-------------------------------------------------------------------|  
+    10 +|+           +            +             +            +           +$$|  
+       +|            +            +             +            +        $$$$ +|  
+        |                                                        $$$$$      |  
+     8 +|+                                                  $$$$$        +-+|  
+        |                                                $$$                |  
+        |                                             $$$                   |  
+     6 +|+                                      C $$$$                   +-+|  
+        |                                      $$$                          |  
+        |                                C $$$$                             |  
+     4 +|+                        C   $$$$$                              +-+|  
+        |                        $$$$$                                      |  
+        |                  C $$$$                                           |  
+        |                 $$$                                               |  
+     2 +|+           C $$$                                               +-+|  
+        |     C   $$$$$                                                     |  
+        |    $$$$$                                                          |  
+     0 C|$$$$                                                            +-+|  
+       $|                                                                   |  
+       +|-------------------------------------------------------------------|  
+    -2 +-+           +            +             +            +           +-+   
+       0             2            4             6            8            10   
+                                 Datos de Entrada  
