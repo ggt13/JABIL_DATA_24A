@@ -1,40 +1,19 @@
-clear;
-clc;
+%%writefile divTLog_GGT.m
+% Define parameters
+R1 = 1000; % Resistance in ohms - please modify this value
+R2 = 1000; % Resistance in ohms - please modify this value
+Vin = 10;  % Input voltage in volts - please modify this value
 
-R1=1000;
-VIN=5;
+% Define a range of input voltages
+Vin_range = linspace(0, Vin, 1000);
 
-R2=(1:1000);
-for i=1:3
-    for j=1:3
-VO=VIN*(R2 ./ (R1+R2));
-plot(R2,VO,"k:");
-hold on
-end
-end
-V=[R2.', VO.']
+% Calculate output voltage for each input voltage
+Vout = R2 ./ (R1 + R2) .* log(1 + Vin_range / R1);
 
-R3=(1:10:10000);
-for i=1:3
-    for j=1:3
-VO=VIN*(R3 ./ (R1+R3));
-plot(R2,VO,"r*");
-hold on
-end
-end
-
-V=[R3.', VO.']
-
-R4=(1:100:100000);
-for i=1:3
-    for j=1:3
-VO=VIN*(R4 ./ (R1+R4));
-plot(R2,VO,"b--");
-hold on
-end
-end
-V=[R4.', VO.']
-
-hold off
-legend({"R2","R3","R4"})
-xlabel("Resistencia variable")
+% Plot the results
+plot(Vin_range, Vout, 'b', 'LineWidth', 2);
+xlabel('Input Voltage (V)');
+ylabel('Output Voltage (V)');
+title('Logarithmic Tension Divider');
+grid on;
+print -dpng divTLog_GGT.png
