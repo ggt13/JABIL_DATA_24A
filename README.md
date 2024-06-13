@@ -30,18 +30,22 @@ Considering the intuitiveness of the DAQ systems, these computer-based
 measurement systems are of critical importance in a variety of
 verticals that need precision, such as construction, electronics,
 production, and manufacturing to name a few.
+
+
 https://www.youtube.com/watch?v=-0LzMfhoSts
 
 
 What is CompactRIO?
 Understand the constituent parts of the NI CompactRIO platform in order to asses this
 approach for your measurement or control application.
+
 https://www.youtube.com/watch?v=ksaeXq84PAg
 
 
 REGRESIÓN LINEAL - Método de mínimos cuadrados en excel
 En este video se hace una regresión lineal utilizando las fórmulas del método de mínimos cuadrados,
 generaremos una tabla en excel, calcularemos el modelo de regresión asi como el coeficiente de correlación de pearson.
+
 https://www.youtube.com/watch?v=N82LfxJTpa4
 
 https://www.youtube.com/watch?v=bwatwGpDuFM
