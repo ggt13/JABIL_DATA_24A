@@ -1,53 +1,56 @@
-# JABIL_DATA_24A
-Curso impartido pot el Dr. Guillermo García Torales 
+# Sistemas de adquisición de datos
 
-Learn from our partner and DAQ expert NI the fundamental data acquisition concepts and terminology,
-essential sensor operating principles, and considerations for building a data acquisition system.
-https://www.youtube.com/watch?v=uL37PFoHOzA
+**TSU en Electrónica y Pruebas · Jabil** · Dr. Guillermo García Torales (CUCEI, Universidad de Guadalajara)
 
+Programas, cuadernos de Colab y datos de las ocho sesiones del curso. Las presentaciones, las instrucciones de cada actividad y las entregas viven en Google Classroom; aquí está lo que se ejecuta.
 
-What is a data acquisition system? (DAQ System)
-Without data, we cannot understand how our systems are performing.
-This video explains the ins and outs of a Data Acquisition System,
-and why industries need this vital monitoring tool to understand,
-correct and improve its processes.
-As discussed already, DAQ or Data Acquisition comprises a measurement system
-and a computer that can measure electrical or physical properties and record
-them for further analysis. 
-The concept of DAQ was introduced in 1963 where it mainly revolved around
-monitoring or controlling a physical entity with software. IBM was the first
-to announce a computer that was solely made for data acquisition tasks
-called the IBM 7700 Data Acquisition system.  
-The IBM 7700 was replaced with a more powerful IBM 1800 Data Acquisition
-and Control System in 1964. With the progress in technology,
-the computing capabilities have drastically changed today,
-allowing us to quickly process and store data in numerous ways. 
-DAQ systems are an excellent example of this.
-These devices are capable of capturing data from an actual system
-and store that data in an easily retrievable format for further
-engineering or scientific review.  
-Considering the intuitiveness of the DAQ systems, these computer-based
-measurement systems are of critical importance in a variety of
-verticals that need precision, such as construction, electronics,
-production, and manufacturing to name a few.
+## Mapa del curso
 
+| Sesión | Tema | Herramientas |
+|---|---|---|
+| 0 | [Presentación del curso](sesion_00_presentacion/) | Google Colab |
+| 1 | [Generación de datos por medio de una ecuación](sesion_01_datos_por_ecuacion/) | Python en Colab · Google Sheets o Excel |
+| 2 | [Generación de datos con un dispositivo y caracterización asistida por IA](sesion_02_potenciometro_lineal/) | Arduino · Python en Colab · asistente de IA |
+| 3 | [Generación, manipulación y caracterización de datos con un dispositivo](sesion_03_potenciometro_rotatorio/) | Arduino · Python en Colab |
+| 4 | [Generación, manipulación y análisis de error de datos sintéticos](sesion_04_analisis_de_error/) | Python en Colab · asistente de IA |
+| 5 | [Análisis de tendencias con datos sintéticos](sesion_05_tendencias_y_ruido/) | Python en Colab (ipywidgets) · Google Sheets o Excel |
+| 6 | [Análisis de datos a partir de información en internet](sesion_06_datos_de_internet_arima/) | Python en Colab (statsmodels) · datos públicos |
+| 7 | [Análisis de datos para el mantenimiento de motores](sesion_07_mantenimiento_de_motores/) | Python en Colab (scikit-learn, seaborn) · Google Sheets o Excel |
+| 8 | [Generación de datos con una IA](sesion_08_datos_con_ia/) | Python en Colab · generador de imágenes con IA |
 
-https://www.youtube.com/watch?v=-0LzMfhoSts
+## Cómo usar este repositorio (alumnos)
 
+1. Entre a la carpeta de la sesión: su `README` dice qué hay y para qué sirve cada archivo.
+2. Los cuadernos (`.ipynb`) se abren directamente en Google Colab con el botón **Abrir en Colab**.
+3. Los programas de Python (`.py`) se copian en una celda de Colab y se ejecutan.
+4. Los programas de Arduino se descargan con su carpeta y se abren con el IDE de Arduino.
+5. Para descargar todo el curso: botón verde **Code → Download ZIP**.
 
-What is CompactRIO?
-Understand the constituent parts of the NI CompactRIO platform in order to asses this
-approach for your measurement or control application.
+## Organización
 
-https://www.youtube.com/watch?v=ksaeXq84PAg
+```
+sesion_NN_tema/
+├── README.md      qué hay en la sesión
+├── arduino/       un programa por carpeta
+├── python/        programas de Python
+├── matlab/        programas de MATLAB
+├── notebooks/     cuadernos de Colab
+├── datos/         datos de entrada
+└── figuras/       resultados de ejemplo
+```
 
+## Versiones
 
-REGRESIÓN LINEAL - Método de mínimos cuadrados en excel
-En este video se hace una regresión lineal utilizando las fórmulas del método de mínimos cuadrados,
-generaremos una tabla en excel, calcularemos el modelo de regresión asi como el coeficiente de correlación de pearson.
+Cada generación del curso queda marcada con una etiqueta (*tag*): `v2024A` es el curso de 2024 antes de esta reorganización. Para ver una versión anterior: menú de ramas → pestaña **Tags**.
 
-https://www.youtube.com/watch?v=N82LfxJTpa4
+## Videos de consulta
 
-https://www.youtube.com/watch?v=bwatwGpDuFM
+- NI · Conceptos fundamentales de adquisición de datos y sensores: https://www.youtube.com/watch?v=uL37PFoHOzA
+- ¿Qué es un sistema de adquisición de datos (DAQ)?: https://www.youtube.com/watch?v=-0LzMfhoSts
+- NI · ¿Qué es CompactRIO?: https://www.youtube.com/watch?v=ksaeXq84PAg
+- Regresión lineal por mínimos cuadrados en Excel: https://www.youtube.com/watch?v=N82LfxJTpa4
+- Videos complementarios: https://www.youtube.com/watch?v=bwatwGpDuFM · https://www.youtube.com/watch?v=bnOBA0MQhlI
 
-https://www.youtube.com/watch?v=bnOBA0MQhlI
+## Licencia
+
+GPL-3.0. Vea el archivo `LICENSE`.
