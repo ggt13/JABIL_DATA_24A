@@ -4,7 +4,7 @@ import csv
 
 # Datos originales
 distancias = np.array([0, 0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5, 5.5, 6])  # en cm
-voltajes = np.array([0.0, 0.044, 0.0225, 0.538, 1.408, 2.278, 2.947, 3.456, 3.978, 4.492, 4.814, 4.951, 5.0])  # en V
+voltajes = np.array([0.0, 0.044, 0.225, 0.538, 1.408, 2.278, 2.947, 3.456, 3.978, 4.492, 4.814, 4.951, 5.0])  # en V
 
 # Constantes
 Vin = 5.0  # Voltaje de entrada
