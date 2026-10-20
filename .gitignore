@@ -1,0 +1,15 @@
+# Archivos temporales de Office (se crean al abrir un .pptx o .xlsx)
+~$*
+# Sistema operativo
+Thumbs.db
+desktop.ini
+.DS_Store
+# Python y Jupyter
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+# Material solo para el profesor: nunca en un repositorio público
+*_PROF.*
+*_PROF/
+respuestas/
+calificaciones/
