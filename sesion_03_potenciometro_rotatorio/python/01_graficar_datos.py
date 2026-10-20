@@ -1,0 +1,30 @@
+import matplotlib.pyplot as plt
+import numpy as np
+
+# Datos
+voltaje_ascendente = [0.000, 0.000, 0.005, 0.220, 0.415, 0.606, 0.821, 1.007, 1.183, 1.393, 1.603, 1.808, 2.028, 2.278, 2.473, 2.669, 2.874, 3.079, 3.309, 3.524, 3.739, 3.930, 4.120, 4.301, 4.506, 4.663, 4.848, 5, 5, 5]
+voltaje_descendente = [5, 5, 5, 4.795, 4.687, 4.497, 4.326, 4.125, 3.935, 3.719, 3.529, 3.338, 3.113, 2.903, 2.654, 2.463, 2.258, 2.038, 1.818, 1.650, 1.403, 1.217, 1.017, 0.860, 0.650, 0.450, 0.244, 0.059, 0, 0]
+grados = [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150, 160, 170, 180, 190, 200, 210, 220, 230, 240, 250, 260, 270, 280, 290]
+
+# Invertir el voltaje descendente
+voltaje_descendente = voltaje_descendente[::-1]
+
+# Crear la gráfica
+plt.figure(figsize=(10, 6))
+plt.plot(grados, voltaje_ascendente, label='Voltaje Ascendente', marker='o')
+plt.plot(grados, voltaje_descendente, label='Voltaje Descendente (invertido)', marker='s')
+
+# Personalización del eje X e Y
+plt.xticks(np.arange(0, 301, 10))    # De 0 a 300 grados, cada 10
+plt.yticks(np.arange(0, 5.1, 0.2))   # De 0 a 5V, cada 0.2
+
+# Títulos y leyenda
+plt.title('Voltaje vs Grados (Ascendente y Descendente Invertido)')
+plt.xlabel('Grados')
+plt.ylabel('Voltaje (V)')
+plt.grid(True)
+plt.legend()
+plt.tight_layout()
+
+# Mostrar la gráfica
+plt.show()
