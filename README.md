@@ -33,7 +33,6 @@ sesion_NN_tema/
 ├── README.md      qué hay en la sesión
 ├── arduino/       un programa por carpeta
 ├── python/        programas de Python
-├── matlab/        programas de MATLAB
 ├── notebooks/     cuadernos de Colab
 ├── datos/         datos de entrada
 └── figuras/       resultados de ejemplo

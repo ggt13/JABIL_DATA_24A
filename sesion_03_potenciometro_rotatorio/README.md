@@ -12,7 +12,6 @@ La presentación de la sesión y los archivos de datos grandes están en Classro
 |---|---|---|
 | [`arduino/sketch_potL_aex/sketch_potL_aex.ino`](arduino/sketch_potL_aex/sketch_potL_aex.ino) | programa para cargar en el Arduino | 2024 |
 | [`datos/datos_pot.py`](datos/datos_pot.py) | datos | 2025 |
-| [`matlab/potenciometro_rotatorio.m`](matlab/potenciometro_rotatorio.m) | programa de MATLAB | 2024 |
 | [`python/01_graficar_datos.py`](python/01_graficar_datos.py) | programa de Python (se pega en una celda de Colab) | 2025 |
 | [`python/02_grafica_resistencia_angulo.py`](python/02_grafica_resistencia_angulo.py) | programa de Python (se pega en una celda de Colab) | 2025 |
 

@@ -12,7 +12,6 @@ La presentación de la sesión y los archivos de datos grandes están en Classro
 |---|---|---|
 | [`arduino/sketch_divT/sketch_divT.ino`](arduino/sketch_divT/sketch_divT.ino) | programa para cargar en el Arduino | 2024 |
 | [`datos/combined_data.csv`](datos/combined_data.csv) | datos | 2024 |
-| [`matlab/divisor_de_tension.m`](matlab/divisor_de_tension.m) | programa de MATLAB | 2024 |
 | [`python/divisor_de_tension.py`](python/divisor_de_tension.py) | programa de Python (se pega en una celda de Colab) | 2025 |
 
 ## Cargar el programa en el Arduino
