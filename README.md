@@ -30,7 +30,7 @@ Los archivos los sube solo el profesor; tus entregas van a Classroom. No subas d
 
 ## Otras carpetas
 
-`zz_archivo_2024_jose_luis_becerril/` guarda, sin cambios, los archivos que subió José Luis Becerril para la generación 2024. **No forma parte del curso 2027**; se conserva como referencia. Las versiones anteriores del repositorio completo están en las etiquetas (*tags*) `v2024A` y `v2025`.
+`zz_archivo_2024_jose_luis_becerril/` guarda, sin cambios, los archivos que subió José Luis Becerril para la generación 2024. **No forma parte del curso 2027**; se conserva como referencia. Las versiones anteriores del repositorio completo quedan en el historial: commit `e7ffed1` (curso 2024) y commit `67bd370` (versión 2025).
 
 ## Licencia
 
