@@ -2,7 +2,7 @@
 
 **Práctica (Colab):** Tres divisores con un termistor NTC: de la temperatura al voltaje y a un archivo CSV; lectura del registro de un logger.
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ggt13/DAQ_JABIL/blob/main/sesion_01_datos_y_adquisicion/S1_AC_PR_1_1_Del_sensor_al_archivo_2027_GGT.ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ggt13/DAQ_TSU/blob/main/sesion_01_datos_y_adquisicion/S1_AC_PR_1_1_Del_sensor_al_archivo_2027_GGT.ipynb)
 
 No necesitas programar: abre el cuaderno, guarda tu copia (Archivo → Guardar una copia en Drive), ejecuta las celdas en orden y cambia solo los campos del formulario.
 
