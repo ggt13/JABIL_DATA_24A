@@ -17,8 +17,8 @@ La presentación de la sesión y los archivos de datos grandes están en Classro
 
 ## Abrir en Colab
 
-- `mantenimiento_predictivo_motor_2024.ipynb` [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ggt13/JABIL_DATA_24A/blob/main/sesion_07_mantenimiento_de_motores/notebooks/mantenimiento_predictivo_motor_2024.ipynb)
-- `sesion_07_mantenimiento.ipynb` [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ggt13/JABIL_DATA_24A/blob/main/sesion_07_mantenimiento_de_motores/notebooks/sesion_07_mantenimiento.ipynb)
+- `mantenimiento_predictivo_motor_2024.ipynb` [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ggt13/DAQ_JABIL/blob/main/sesion_07_mantenimiento_de_motores/notebooks/mantenimiento_predictivo_motor_2024.ipynb)
+- `sesion_07_mantenimiento.ipynb` [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ggt13/DAQ_JABIL/blob/main/sesion_07_mantenimiento_de_motores/notebooks/sesion_07_mantenimiento.ipynb)
 
 ## Notas de revisión
 

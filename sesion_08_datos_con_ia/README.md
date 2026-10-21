@@ -16,5 +16,5 @@ La presentación de la sesión y los archivos de datos grandes están en Classro
 
 ## Abrir en Colab
 
-- `chatgpt_2024.ipynb` [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ggt13/JABIL_DATA_24A/blob/main/sesion_08_datos_con_ia/notebooks/chatgpt_2024.ipynb)
-- `generacion_con_ia.ipynb` [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ggt13/JABIL_DATA_24A/blob/main/sesion_08_datos_con_ia/notebooks/generacion_con_ia.ipynb)
+- `chatgpt_2024.ipynb` [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ggt13/DAQ_JABIL/blob/main/sesion_08_datos_con_ia/notebooks/chatgpt_2024.ipynb)
+- `generacion_con_ia.ipynb` [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ggt13/DAQ_JABIL/blob/main/sesion_08_datos_con_ia/notebooks/generacion_con_ia.ipynb)

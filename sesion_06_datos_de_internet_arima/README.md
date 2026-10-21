@@ -20,4 +20,4 @@ La presentación de la sesión y los archivos de datos grandes están en Classro
 
 ## Abrir en Colab
 
-- `arima_clima.ipynb` [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ggt13/JABIL_DATA_24A/blob/main/sesion_06_datos_de_internet_arima/notebooks/arima_clima.ipynb)
+- `arima_clima.ipynb` [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ggt13/DAQ_JABIL/blob/main/sesion_06_datos_de_internet_arima/notebooks/arima_clima.ipynb)
